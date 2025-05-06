@@ -92,16 +92,16 @@ export default function Feed()
               ))}
             </div>
             <div className={styles.metadataContainer}>
-              <p> {shrug.date} · {shrug.nick} </p>
+              <p className={styles.metadata}> {shrug.date} · {shrug.nick} </p>
             </div>
           </article>
         ))}
-        <div className={styles.footer}>
-          <p className={styles.footerText}> &lt;&lt; newer </p>
-          <p className={styles.footerText}> 2/3 </p>
-          <p className={styles.footerText}> older &gt;&gt; </p>
-        </div>
       </main>
+      <footer className={styles.footer}>
+          <p className={styles.pageNumber}> &lt;&lt; newer </p>
+          <p className={styles.pageNumber}> 2/3 </p>
+          <p className={styles.pageNumber}> older &gt;&gt; </p>
+        </footer>
     </div>
   );
 }

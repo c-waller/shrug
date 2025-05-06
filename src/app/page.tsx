@@ -12,7 +12,7 @@ export default function Home()
         <h1> ¯\_(ツ)_/¯ Shrug </h1>
       </Link>
       <p className={styles.tagline}> A quiet corner of the internet for whatever's on your mind. </p>
-      <Link href={"/feed"}> <MainButton> Discover </MainButton> </Link>
+      <Link href={"/feed"}> <MainButton className={styles.auth}> Discover </MainButton> </Link>
     </div>
   );
 }

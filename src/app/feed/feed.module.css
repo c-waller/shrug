@@ -10,16 +10,20 @@
 
 .main
 {
-  padding-top: 40px;
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .shrug
 {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-bottom: solid 1.5px #e2e2e2;
-  width: 700px;
-  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: solid 1px #e2e2e2;
+  gap: 0.9375rem;
+  width: 570px;
 }
 
 .metadataContainer
@@ -27,6 +31,12 @@
   display: flex;
   justify-content: space-between;
   color: #a8a8a8;
+}
+
+.metadata
+{
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .description
@@ -39,18 +49,27 @@
 .title
 {
   color: #363737;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.spacer
+{
+  padding-bottom: 3.75rem;
 }
 
 .footer
 {
   display:flex;
+  width: 570px;
   justify-content: space-between;
   color: #A8A8A8;
-  padding-top: 40px;
-  padding-bottom: 80px;
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
+  cursor: default;
 }
 
-.footerText:hover
+.pageNavigation:hover
 {
   cursor: pointer;
   color: #363737;
