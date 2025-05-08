@@ -2,9 +2,20 @@
 
 import styles from "./feed.module.css";
 import MainTopicTitle from "../components/MainTopicTitle";
+import CommentButton from "../components/CommentButton";
 
 // these are examples!!!!!!!!!
 const shrugs = [
+  {
+    title: "",
+    content: "",
+    date: "2 hours ago",
+    nick: "someone",
+    id: "k4tjm-uz33c",
+    tags: ["fashion", "margiela", "unemployed", "im the second lion"],
+    comments: 15,
+    img: "https://media.discordapp.net/attachments/1233498823641534537/1310089561409585243/IMG_8304.jpg?ex=681d7afb&is=681c297b&hm=01b6d9fe139d2fb759a9ffa06af35afac55a469bb52d1de8a9c4a159296ae4dd&=&format=webp&width=1302&height=1664",
+  },
   {
     title: "A thought",
     content: "Does elon musk tell people he's african american?",
@@ -13,6 +24,7 @@ const shrugs = [
     id: "m8czd-wl56e",
     tags: ["random", "thoughts"],
     comments: 23,
+    img: null,
   },
   {
     title: "finals week soon",
@@ -21,7 +33,8 @@ const shrugs = [
     date: "3 hours ago",
     id: "q7fkp-hu24a",
     tags: [],
-    comments: 5,
+    comments: 1,
+    img: null,
   },
   {
     title: "Mind empty",
@@ -31,6 +44,7 @@ const shrugs = [
     id: "x3nvt-kg91z",
     tags: ["mindfulness"],
     comments: 0,
+    img: "https://media.discordapp.net/attachments/1233498823641534537/1258265530113200138/IMG_6886.png?ex=681d7897&is=681c2717&hm=325de523b1484aa3baf339993d7d37eb3f2741a9ddc1765f99495cda67dda246&=&format=webp&quality=lossless&width=1738&height=1456",
   },
   {
     title: "Note To Self",
@@ -40,6 +54,7 @@ const shrugs = [
     id: "a1xrf-vn83y",
     tags: ["selfcare", "reminder"],
     comments: 8,
+    img: null,
   },
   {
     title: "Bored",
@@ -49,6 +64,7 @@ const shrugs = [
     id: "z9hdp-rm70q",
     tags: ["coding", "debugging"],
     comments: 3,
+    img: null,
   },
   {
     title: "It's never too late",
@@ -59,15 +75,7 @@ const shrugs = [
     id: "t2wqx-mk45n",
     tags: [],
     comments: 12,
-  },
-  {
-    title: "Observation",
-    content: "People who walk fast in airports probably run entire empires",
-    date: "2 hours ago",
-    nick: "someone",
-    id: "k4tjm-uz33c",
-    tags: ["observation", "travel"],
-    comments: 15,
+    img: null,
   },
   {
     title: "I Miss Old Youtube",
@@ -76,8 +84,9 @@ const shrugs = [
     date: "22 hours ago",
     nick: "someone",
     id: "v6gsl-yt28b",
-    tags: ["nostalgia", "youtube", "unemployed"],
+    tags: ["oldyt"],
     comments: 42,
+    img: null,
   },
   {
     title: "dream log",
@@ -88,6 +97,7 @@ const shrugs = [
     id: "r5bze-pc60v",
     tags: ["dreams", "weird"],
     comments: 7,
+    img: null,
   },
   {
     title: "I still haven't found an internship",
@@ -97,6 +107,113 @@ const shrugs = [
     id: "n0yjd-xq17s",
     tags: [],
     comments: 19,
+    img: null,
+  },
+  {
+    title: "why do we exist",
+    content: "just to suffer?",
+    date: "4 hours ago",
+    nick: "someone",
+    id: "p9xyz-abc12",
+    tags: ["deep", "existential", "philosophy", "thoughts", "life"],
+    comments: 31,
+    img: null,
+  },
+  {
+    title: "my cat just",
+    content: "meowed in morse code. SOS. what do i do",
+    date: "1 hour ago",
+    nick: "someone",
+    id: "c7def-ghi34",
+    tags: ["cats"],
+    comments: 27,
+    img: null,
+  },
+  {
+    title: "TIL",
+    content: "if you type 'google' into google, it will break the internet",
+    date: "5 hours ago",
+    nick: "someone",
+    id: "t5jkl-mno56",
+    tags: ["tech", "lifehack", "internet"],
+    comments: 14,
+    img: null,
+  },
+  {
+    title: "found this in my notes app",
+    content:
+      "buy milk\nremember to forget\nwhy is the sky blue\ncall mom\nwhat if we're all just NPCs in someone's dream",
+    date: "7 hours ago",
+    nick: "notetaker",
+    id: "n3pqr-stu78",
+    tags: ["notes", "random", "thoughts", "life"],
+    comments: 9,
+    img: null,
+  },
+  {
+    title: "my brain at 3am",
+    content:
+      "what if birds are just government drones and that's why they're always watching us",
+    date: "3 hours ago",
+    nick: "someone",
+    id: "i1vwx-yz90",
+    tags: ["conspiracy", "birds arent real"],
+    comments: 45,
+    img: null,
+  },
+  {
+    title: "shower thought",
+    content: "if you think about it, a hot dog is just a meat popsicle",
+    date: "6 hours ago",
+    nick: "someone",
+    id: "f2abc-def12",
+    tags: ["food", "shower thoughts"],
+    comments: 18,
+    img: null,
+  },
+  {
+    title: "serious question",
+    content:
+      "if you could have any superpower, but it had to be mildly inconvenient, what would you choose? mine would be the ability to turn invisible but only when no one is looking at me",
+    date: "2 hours ago",
+    nick: "someone",
+    id: "s4ghi-jkl34",
+    tags: ["superpowers", "discussion"],
+    comments: 52,
+    img: null,
+  },
+  {
+    title: "life update",
+    content:
+      "just realized i've been using my phone upside down for the past 3 years",
+    date: "1 hour ago",
+    nick: "someone",
+    id: "c6mno-pqr56",
+    tags: ["life", "oops"],
+    comments: 33,
+    img: null,
+  },
+  {
+    title: "deep cut",
+    content:
+      "sometimes i wonder if my plants are judging me for not watering them enough. like, they're just sitting there, silently judging my life choices",
+    date: "4 hours ago",
+    nick: "someone",
+    id: "p8stu-vwx78",
+    tags: ["plants", "existential"],
+    comments: 21,
+    img: null,
+  },
+  {
+    title: "real talk",
+    content:
+      "we're all just trying to find our place in this world, one meme at a time",
+    date: "3 hours ago",
+    nick: "someone",
+    id: "d0yza-bcd90",
+    tags: ["philosophy", "memes"],
+    comments: 29,
+    img: null,
   },
 ];
 
@@ -113,6 +230,15 @@ export default function Feed() {
                 <p key={i}>{line}</p>
               ))}
             </div>
+            {shrug.img && (
+              <div className={styles.imageContainer}>
+                <img
+                  src={shrug.img}
+                  alt={shrug.title}
+                  className={styles.image}
+                />
+              </div>
+            )}
             {shrug.tags.length > 0 ? (
               <div className={styles.tags}>
                 {shrug.tags.map((tag, i) => (
@@ -130,20 +256,12 @@ export default function Feed() {
               </div>
               <div className={styles.commentsContainer}>
                 <span className={styles.comments}> {shrug.comments} </span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className={styles.commentIcon}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z"
-                  />
-                </svg>
+                <CommentButton />
+                <span className={styles.tooltiptext}>
+                  {shrug.comments === 1
+                    ? "1 thought"
+                    : `${shrug.comments} thoughts`}
+                </span>
               </div>
             </div>
           </article>

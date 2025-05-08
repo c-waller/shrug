@@ -23,12 +23,43 @@
   width: 570px;
 }
 
-.shrug:first-child {
-  border-top: solid 1px #e2e2e2;
-}
-
 .shrug:hover {
   cursor: pointer;
+}
+
+.title {
+  color: #363737;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.description {
+  line-height: 1.5;
+  color: #363737;
+  cursor: text;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tag {
+  background-color: #f0f0f0;
+  color: #666;
+  padding: 0.25rem 0.75rem;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+.tag:hover {
+  cursor: pointer;
+  background-color: #e2e2e2;
+}
+
+.tag:active {
+  transform: scale(0.95);
 }
 
 .metadataContainer {
@@ -50,6 +81,12 @@
   flex-direction: row;
   align-items: center;
   gap: 0.5rem;
+  position: relative;
+}
+
+.commentsContainer:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
 
 .commentIcon {
@@ -58,20 +95,39 @@
   color: #a8a8a8;
 }
 
-.comments {
-  color: #a8a8a8;
+.tooltip {
+  position: relative;
+  display: inline-block;
 }
 
-.description {
-  line-height: 1.5;
-  color: #363737;
-  cursor: text;
+.tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  position: absolute;
+  z-index: -1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  white-space: nowrap;
+  transition: opacity 0s;
+  transition-delay: 1000ms;
 }
 
-.title {
-  color: #363737;
-  margin-top: 0;
-  margin-bottom: 0;
+.tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
 }
 
 .footer {
@@ -89,24 +145,15 @@
   color: #363737;
 }
 
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+.imageContainer {
+  margin: 1rem 0;
+  width: 100%;
 }
 
-.tag {
-  background-color: #f0f0f0;
-  color: #666;
-  padding: 0.25rem 0.75rem;
-  border-radius: 5px;
-  transition: all 0.5s ease;
-}
-
-.tag:hover {
-  cursor: pointer;
-}
-
-.tag:active {
-  transform: scale(0.95);
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid #e2e2e2;
 }
