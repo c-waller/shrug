@@ -1,18 +1,16 @@
 // stylized button component
 
-import styles from './MainButton.module.css';
+import styles from "./styles/MainButton.module.css";
 
-type MainButtonProps = 
-{
-    children: React.ReactNode;
-    className?: string;
-}
+type MainButtonProps = {
+  children: React.ReactNode;
+  className?: string;
+};
 
-export default function MainButton({children, className}: MainButtonProps)
-{
-    return(
-        <button className={`${styles.mainButton} ${className || ""}`} type="button">
-            {children}
-        </button>
-    )    
+export default function MainButton({ children, className }: MainButtonProps) {
+  return (
+    <button className={`${styles.mainButton} ${className || ""}`} type="button">
+      {children}
+    </button>
+  );
 }

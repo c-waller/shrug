@@ -1,7 +1,6 @@
 /* styles for landing page */
 
-.container
-{
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,26 +10,22 @@
   font-size: 15px;
 }
 
-.title
-{
+.title {
   user-select: none;
-  color: #363737; 
+  color: #363737;
   cursor: default;
   text-decoration: none;
   cursor: pointer;
 }
 
-.tagline
-{
+.tagline {
   padding-bottom: 1.25rem;
 }
 
-.route
-{
-  color: #A9A9A9;
+.route {
+  color: #a9a9a9;
 }
 
-.auth
-{
+.auth {
   font-size: 13px !important;
 }
