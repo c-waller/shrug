@@ -1,0 +1,199 @@
+[
+    {
+      "id": "1",
+      "tags": ["unemployed", "fashion", "margiela", "jobs are overrated"],
+      "nick": "someone",
+      "createdAt": "2 hours ago",
+      "comments": 15,
+      "type": "image",
+      "image": "https://media.discordapp.net/attachments/1233498823641534537/1310089561409585243/IMG_8304.jpg?ex=681ecc7b&is=681d7afb&hm=067195371063f1b216fdc04aea3cb4d5f186f7df6c2026250d43c57e6374ebe7&=&format=webp&width=1302&height=1664"
+    },
+    {
+      "id": "2",
+      "tags": ["random", "thoughts"],
+      "nick": "cj",
+      "createdAt": "1 hour ago",
+      "comments": 9,
+      "type": "text",
+      "title": "A thought",
+      "content": "Does elon musk tell people he's african american?"
+    },
+    {
+      "id": "3",
+      "tags": ["cs", "compsci"],
+      "nick": "someone",
+      "createdAt": "6 hours ago",
+      "comments": 10,
+      "type": "text",
+      "title": "Final exams of my college undergrad degree and I feel so many emotions",
+      "content": "I have to start studying for my final exams of my undergrad college and there are so many emotions swirling and I don’t know what to do. I have no motivation to study for them, I already passed these classes but I know I should and I will. I am terrified cause especially one of these exams is in the hardest class I’ve ever taken and even though I passed mathematically it still scares me for some reason. I feel relief that it’s almost over, but I’m depressed that it’s not over yet. Overall just kinda unsure how to manage all these emotions."
+    },
+    {
+      "id": "4",
+      "tags": [],
+      "nick": "someone",
+      "createdAt": "3 hours ago",
+      "comments": 1,
+      "type": "text",
+      "title": "finals week soon",
+      "content": "its over for me"
+    },
+    {
+      "id": "5",
+      "tags": ["freaks", "gooning"],
+      "nick": "leo",
+      "createdAt": "6 hours ago",
+      "comments": 9,
+      "type": "image",
+      "image": "https://media.discordapp.net/attachments/1233498823641534537/1275263173641109577/image.png?ex=681f52a1&is=681e0121&hm=43b22ab95d9bb7fa399d9a7be0be76c415398d95cefa83eeb7a35c28dc91c3fc&=&format=webp&quality=lossless&width=1502&height=1456"
+    },
+    {
+      "id": "6",
+      "tags": ["selfcare", "reminder"],
+      "nick": "someone",
+      "createdAt": "14 hours ago",
+      "comments": 8,
+      "type": "text",
+      "title": "Note To Self",
+      "content": "Drink some water. Stand up. Breathe. You're doing fine."
+    },
+    {
+      "id": "7",
+      "tags": ["coding", "debugging"],
+      "nick": "x",
+      "createdAt": "15 hours ago",
+      "comments": 3,
+      "type": "text",
+      "title": "Bored",
+      "content": "console.log(\"maybe this will work\");\n// it didn't"
+    },
+    {
+      "id": "8",
+      "tags": [],
+      "nick": "thethinker",
+      "createdAt": "1 hour ago",
+      "comments": 12,
+      "type": "text",
+      "title": "It's never too late",
+      "content": "There's a famous Japanese proverb that says, \"if you find yourself on the wrong train, get off at the next station.\" It doesn't matter if you have to pay a high cost for a new ticket. It doesn't matter if you're embarrassed to have made a mistake. Every price you pay to fix the situation is worth not going the wrong way, and starting to go the right way. Not having the courage to get off means going to the wrong destination. This, of course, isn't about trains. It's about life."
+    },
+    {
+      "id": "9",
+      "tags": ["yearning"],
+      "nick": "someone",
+      "createdAt": "22 hours ago",
+      "comments": 5,
+      "type": "text",
+      "title": "google+",
+      "content": "does anyone remember google+? i had a lot of good memories on that site, i definitely miss it. would be cool if it came back, i'd love to see it again."
+    },
+    {
+      "id": "10",
+      "tags": ["dreams", "weird"],
+      "nick": "someone",
+      "createdAt": "8 hours ago",
+      "comments": 1,
+      "type": "text",
+      "title": "dream log",
+      "content": "i was riding a bike through the clouds, racing a bird that sounded like it was beatboxing. woke up and my legs hurt."
+    },
+    {
+      "id": "11",
+      "tags": [],
+      "nick": "someone",
+      "createdAt": "12 hours ago",
+      "comments": 5,
+      "type": "text",
+      "title": "I still haven't found an internship",
+      "content": "am i cooked?"
+    },
+    {
+      "id": "12",
+      "tags": ["deep", "existential", "philosophy", "thoughts", "life"],
+      "nick": "someone",
+      "createdAt": "4 hours ago",
+      "comments": 0,
+      "type": "text",
+      "title": "why do we exist",
+      "content": "just to suffer?"
+    },
+    {
+      "id": "13",
+      "tags": ["freaks"],
+      "nick": "someone",
+      "createdAt": "1 hour ago",
+      "comments": 0,
+      "type": "image",
+      "image": "https://media.discordapp.net/attachments/1364676277323173910/1368166609121968218/IMG_0415.png?ex=681f24f2&is=681dd372&hm=5d969e44faf1f7daf5449cf3c8b5fb6ae1f70d571da8a556d47bf5e842e0e75b&=&format=webp&quality=lossless&width=1658&height=1456"
+    },
+    {
+      "id": "14",
+      "tags": ["tech", "lifehack", "internet"],
+      "nick": "someone",
+      "createdAt": "5 hours ago",
+      "comments": 0,
+      "type": "text",
+      "title": "TIL",
+      "content": "if you type 'google' into google, it will break the internet"
+    },
+    {
+      "id": "15",
+      "tags": ["notes", "random", "thoughts", "life"],
+      "nick": "notetaker",
+      "createdAt": "7 hours ago",
+      "comments": 9,
+      "type": "text",
+      "title": "found this in my notes app",
+      "content": "buy milk\nremember to forget\nwhy is the sky blue\ncall mom\nwhat if we're all just NPCs in someone's dream"
+    },
+    {
+      "id": "16",
+      "tags": ["conspiracy", "birds arent real"],
+      "nick": "someone",
+      "createdAt": "3 hours ago",
+      "comments": 1,
+      "type": "text",
+      "title": "my brain at 3am",
+      "content": "what if birds are just government drones and that's why they're always watching us"
+    },
+    {
+      "id": "17",
+      "tags": ["superpowers", "discussion"],
+      "nick": "someone",
+      "createdAt": "2 hours ago",
+      "comments": 3,
+      "type": "text",
+      "title": "serious question",
+      "content": "if you could have any superpower, but it had to be mildly inconvenient, what would you choose? mine would be the ability to turn invisible but only when no one is looking at me"
+    },
+    {
+      "id": "18",
+      "tags": ["life", "oops"],
+      "nick": "someone",
+      "createdAt": "1 hour ago",
+      "comments": 0,
+      "type": "text",
+      "title": "life update",
+      "content": "just realized i've been using my phone upside down for the past 3 years"
+    },
+    {
+      "id": "19",
+      "tags": ["plants", "existential"],
+      "nick": "someone",
+      "createdAt": "4 hours ago",
+      "comments": 7,
+      "type": "text",
+      "title": "deep cut",
+      "content": "sometimes i wonder if my plants are judging me for not watering them enough. like, they're just sitting there, silently judging my life choices"
+    },
+    {
+      "id": "20",
+      "tags": ["unemployed"],
+      "nick": "someone",
+      "createdAt": "3 hours ago",
+      "comments": 0,
+      "type": "text",
+      "title": "real talk",
+      "content": "having a j*b is overrated, id rather have a glizzy"
+    }
+]
